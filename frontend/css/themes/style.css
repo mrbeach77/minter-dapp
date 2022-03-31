@@ -22,9 +22,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: var(--bg-color);
+  background-image: url("https://deft-malasada-4d081f.netlify.app/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -393,4 +395,8 @@ section {
 
 .hidden {
   display: none;
+}
+
+#splide01{
+  display: none!important;
 }
